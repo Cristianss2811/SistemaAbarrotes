@@ -1,4 +1,4 @@
-namespace SistemaAbarrotes.Models
+namespace SistemaAbarrotes.Modelos.ViewModels
 {
     public class ErrorViewModel
     {
