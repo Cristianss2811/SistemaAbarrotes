@@ -14,7 +14,6 @@ namespace SistemaAbarrotes.AccesoDatos.Repositorio
     {
         private readonly ApplicationDbContext _db;
 
-
         public BodegaRepositorio(ApplicationDbContext db) : base(db)
         {
             _db = db;
@@ -28,6 +27,7 @@ namespace SistemaAbarrotes.AccesoDatos.Repositorio
                 bodegaBD.Nombre = bodega.Nombre;
                 bodegaBD.Descripcion = bodega.Descripcion;
                 bodegaBD.Estado = bodega.Estado;
+
                 _db.SaveChanges();
             }
         }
