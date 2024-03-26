@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaAbarrotes.Utilidades
 {
-    public static class Class1
+    public static class DS
     {
     }
 }
