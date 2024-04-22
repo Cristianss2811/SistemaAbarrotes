@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-SistemaAbarrotes-e1ec38a7-9af4-4077-ae20-a3de65de91f7</UserSecretsId>
   </PropertyGroup>
@@ -22,6 +21,10 @@
     <ProjectReference Include="..\SistemaAbarrotes.AccesoDatos\SistemaAbarrotes.AccesoDatos.csproj" />
     <ProjectReference Include="..\SistemaAbarrotes.Modelos\SistemaAbarrotes.Modelos.csproj" />
     <ProjectReference Include="..\SistemaAbarrotes.Utilidades\SistemaAbarrotes.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Imagenes\Productos\" />
   </ItemGroup>
 
 </Project>
